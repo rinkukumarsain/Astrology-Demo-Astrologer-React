@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+body {
+  font-family: var(--font-inter) !important; 
+}
+
+@theme {
+  --color-primary : #E66344;
+  --color-primary-light : #FFF8F5;
+}
+
+/* Base styles for rich text content (CKEditor output) */
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+}
+.prose th, .prose td {
+  border: 1px solid #D9D2DE;
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+.prose th {
+  background-color: #F8F9FA;
+  font-weight: 600;
+  color: #1F1F1F;
+}
+.prose figure.table {
+  margin: 2rem 0;
+  overflow-x: auto;
+}
+.prose ul {
+  list-style-type: disc;
+  padding-left: 1.5em;
+  margin: 1em 0;
+}
+.prose ol {
+  list-style-type: decimal;
+  padding-left: 1.5em;
+  margin: 1em 0;
+}
