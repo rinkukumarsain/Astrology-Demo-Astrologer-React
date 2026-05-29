@@ -49,10 +49,10 @@ const Header = ({ onMenuClick }) => {
             </svg>
           </button>
           <span className="inline-flex h-9 w-9 shrink-0 overflow-hidden rounded-full border border-[#E4DDE6] bg-white">
-            <Image src="/assets/img/logo-gif.gif" alt="Nakshatra.ai logo" width={36} height={36} unoptimized className="h-full w-full object-cover" />
+            <Image src="/assets/img/logo.png" alt="IMG logo" width={36} height={36} unoptimized className="h-full w-full object-cover" />
           </span>
           <p className="truncate text-[18px] font-semibold text-[#1F1F1F]">
-            Nakshatra.ai <span className="font-normal text-[#8A8A8A]">Astrologer</span>
+            IMG <span className="font-normal text-[#8A8A8A]">Astrologer</span>
           </p>
         </div>
 

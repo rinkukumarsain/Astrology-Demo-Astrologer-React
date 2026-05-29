@@ -12,8 +12,8 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Nakshtra.ai Astrologer",
-  description: "Nakshtra.ai Astrologer App",
+  title: "IMG Astrologer",
+  description: "IMG Astrologer App",
   icons: {
     icon: "/assets/img/logo.png",
     shortcut: "/assets/img/logo.png",

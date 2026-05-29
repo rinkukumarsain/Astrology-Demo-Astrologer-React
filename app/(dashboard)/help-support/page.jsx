@@ -138,7 +138,7 @@ export default function HelpSupportPage() {
   const [isLoading, setIsLoading] = useState(true);
   const [faqItems, setFaqItems] = useState(FAQ_ITEMS);
   const [supportInfo, setSupportInfo] = useState({
-    email: "info@nakshatraai.ai",
+    email: "info@imgastrology.com",
     phone: "9289604412",
     whatsapp: "9289604412",
   });
@@ -171,7 +171,7 @@ export default function HelpSupportPage() {
         }
 
         setSupportInfo({
-          email: data?.suppoertEmail || data?.supportEmail || "info@nakshatraai.ai",
+          email: data?.suppoertEmail || data?.supportEmail || "info@imgastrology.com",
           phone: data?.supportPhone || "9289604412",
           whatsapp: data?.supportWhatsApp || data?.supportWhatsapp || "9289604412",
         });

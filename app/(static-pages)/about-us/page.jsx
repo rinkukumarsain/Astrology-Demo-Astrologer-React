@@ -18,8 +18,8 @@ async function getAboutUsContent() {
 }
 
 export const metadata = {
-  title: "About Us | Nakshatra.ai Astrologer",
-  description: "About Nakshatra.ai Astrologer platform.",
+  title: "About Us | IMG Astrology",
+  description: "About IMG Astrology platform.",
 };
 
 export default async function AboutUsPage() {

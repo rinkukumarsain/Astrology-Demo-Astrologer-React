@@ -18,8 +18,8 @@ async function getPrivacyPolicyContent() {
 }
 
 export const metadata = {
-  title: "Privacy Policy | Nakshatra.ai Astrologer",
-  description: "Privacy policy for astrologers on Nakshatra.ai.",
+  title: "Privacy Policy | IMG Astrology",
+  description: "Privacy policy for astrologers on IMG Astrology.",
 };
 
 import Link from "next/link";

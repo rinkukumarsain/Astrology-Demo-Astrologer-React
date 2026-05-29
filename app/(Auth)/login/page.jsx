@@ -51,8 +51,8 @@ export default function Page() {
 
           <div className="mx-auto w-full max-w-md">
             <Image
-              src="/assets/img/logo-gif.gif"
-              alt="Nakshatra.ai logo"
+              src="/assets/img/logo.png"
+              alt="IMG logo"
               width={120}
               height={120}
               unoptimized
@@ -65,7 +65,7 @@ export default function Page() {
                 {t('embarkonYourAstrologyJourney') || 'Embark on your Astrology Journey with'}
               </p>
               <p className="mt-2 text-2xl font-semibold leading-tight text-[#222222]">
-                {t('nakshatraAi') || 'Nakshatra.ai Astrologer'}
+                {t('imgAstrology') || 'IMG Astrology'}
               </p>
             </div>
 

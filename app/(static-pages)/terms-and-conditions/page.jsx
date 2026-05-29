@@ -18,8 +18,8 @@ async function getTermsContent() {
 }
 
 export const metadata = {
-  title: "Terms & Conditions | Nakshatra.ai Astrologer",
-  description: "Terms and conditions for astrologers on Nakshatra.ai.",
+  title: "Terms & Conditions | IMG Astrology",
+  description: "Terms and conditions for astrologers on IMG Astrology.",
 };
 
 import Link from "next/link";
